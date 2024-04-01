@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day's End</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <style>a,body,div,h1,h2,h3,html,iframe,img,p,span,strong{font-family:inherit;font-size:100%;font-weight:inherit;font-style:inherit;vertical-align:baseline;white-space:normal;text-align:left;margin:0;padding:0;border:0;outline:0;background:0 0}h1,h2,h3{font-size:100%;font-weight:400}body{color:#000;background-color:#fff;font-family:Arial,Helvetica,Helmet,FreeSans,Clean,sans-serif;line-height:1}a{text-decoration:none}a:focus,a:hover{text-decoration:underline}.end,.ignore{position:absolute;overflow:hidden;display:block;width:1px;height:1px;border-width:0;left:-100000px;top:-100000px}#aaa{overflow:hidden;min-height:0;width:100%}html{overflow:auto}body{color:#666;font-size:62.5%}#wrap{width:100%}#relogio,#time,body{background-color:#e6e6e6}#content,#footer,#header,#main,#wrapper{margin:0 auto}#content,#footer,#header,#main{background-color:#fff;width:90%}#wrapper{width:760px;padding:3% 0}#main,#relogio,#time{border:1px solid silver}#main{width:auto;text-align:center}#relogio,#time,h1,h3{color:#222}a{color:navy}#header{border-bottom:1px solid silver;padding:10px 0 6px}h1,h3{font-weight:700}h1{font-size:400%;letter-spacing:-2px;padding-bottom:.2em}#automatico,#footer p,h2{font-size:14px;line-height:18px}h3{font-size:24px;letter-spacing:-1px}:first-child+html h3{letter-spacing:-1px}* html h1{letter-spacing:-1px}#relogio,#time,#wrapper,body,h1,h2,h3,h6,p{text-align:center}#relogio,#time{font-size:15em;font-weight:700;line-height:125%}#footer{border-top:1px solid silver;margin-top:0;padding:15px 0 25px 0}#footer p img{margin-right:2px}.alteracao,.aviso{background-color:#ff0;border:1px solid #000;font-size:14px;line-height:20px;margin-top:20px;padding:5px 10px 6px;text-align:left}.aviso,.aviso a{color:#333}.aviso span{color:red;font-size:14px;font-weight:700;margin-right:2px;text-transform:uppercase}#relogio,#time,.texto,h3{margin-top:20px}#automatico{margin:25px 0 50px;color:red}#automatico a{color:red;font-weight:700}#automatico span{color:#666}.texto{font-size:14px;line-height:18px;text-align:justify}p.doe{padding:0 0 30px}p.doe .chave-pix{line-height:2.5}p.doe #pix{font-weight:700;font-size:107.143%}.js #automatico{color:#666}@media all and (min-width:10px){#wrapper{width:95%}h1{font-size:210%;padding-bottom:.25em;letter-spacing:-1px}#dia-topo{font-size:1.3em;letter-spacing:-.3px}#footer p{margin-bottom:5px}#header h2{display:none}}@media all and (min-width:100px){#relogio{cursor:pointer;font-size:4em}}@media all and (min-width:249px){#relogio{font-size:4.791em}}@media all and (min-width:299px){#relogio{font-size:5.75em}#dia-topo{font-size:1.35em;letter-spacing:-.3px}}@media all and (min-width:319px){h1{font-size:231.11%;letter-spacing:-.7px}#dia-topo{font-size:1.45em;letter-spacing:-.2px}#relogio{font-size:5.9em}#header h2{display:block}}@media all and (min-width:359px){h1{font-size:260%;letter-spacing:-1px}#dia-topo{font-size:1.65em;letter-spacing:-.3px}#relogio{font-size:6.9em}p.doe{padding:0 4px 30px}}@media all and (min-width:374px){h1{font-size:270.83%}#dia-topo{font-size:1.69em}#relogio{font-size:7.1875em}p.doe{padding:0 10.2px 30px}}@media all and (min-width:383px){h1{font-size:277.33%}#dia-topo{font-size:1.72em}#relogio{font-size:7.36em}p.doe{padding:0 0 30px}}@media all and (min-width:389px){h1{font-size:281.66%;padding-bottom:.29em}#dia-topo{font-size:1.735em;letter-spacing:-.4px}#relogio{font-size:7.475em}p.doe{padding:0 2px 30px}}@media all and (min-width:400px){h1{font-size:288.88%}#dia-topo{font-size:1.74em}#relogio{font-size:7.666em}p.doe{padding:0 0 30px}}@media all and (min-width:411px){h1{font-size:297.55%;letter-spacing:-1.3px}#dia-topo{font-size:1.755em}#relogio{font-size:7.896em}p.doe{padding:0 5.5px 30px}}@media all and (min-width:414px){p.doe{padding:0 6px 30px}}@media all and (min-width:424px){h1{font-size:306.94%}#dia-topo{font-size:1.78em}#relogio{font-size:8.145em}p.doe{padding:0 12.5px 30px}}@media all and (min-width:480px){h1{font-size:347.38%;letter-spacing:-1.7px}#dia-topo{font-size:2em;letter-spacing:-.5px}#relogio{font-size:9.2em}p.doe{padding:0 0 30px}}@media all and (max-width:520px){#main{border-radius:10px}p.doe #pix{font-size:114.286%;letter-spacing:.3px}}@media all and (min-width:520px){#relogio{font-size:9.966em}}@media all and (min-width:620px){#dia-topo{font-size:2.25em;letter-spacing:-.6px}#relogio{font-size:11.5em}}@media all and (min-width:767px){h1{font-size:400%;letter-spacing:-2px;padding-bottom:.2em}#dia-topo{font-size:2.5em;letter-spacing:-.7px}#relogio{font-size:14.72em}#footer p{margin-bottom:auto}p.doe{padding:0 12px 30px}}@media all and (min-width:800px){#wrapper{width:760px;padding:2.5em 0}#relogio{font-size:15.33em}p.doe{padding:0 25px 30px}}@media all and (min-width:950px){#wrapper{width:850px}#dia-topo{font-size:2.6em;letter-spacing:-.85px}#relogio{font-size:17em;line-height:120%}p.doe{padding:0 0 30px}}@media all and (min-width:1100px){#wrapper{width:950px}#relogio{font-size:18em}}@media all and (min-width:1300px){#wrapper{width:1000px}#dia-topo{font-size:2.8em;letter-spacing:-1px}#relogio{font-size:19em}}@media all and (min-width:1600px){#wrapper{width:1050px}#relogio{font-size:20em}}.br-mb{display:none}.span-mb{display:inline}@media only screen and (max-width:750px){.br-mb{display:inline}.span-mb{display:none}}.verao{font-size:14px;line-height:18px;margin:0 0 30px}.verao a{color:navy}#header div{text-align:center;font-size:140%;padding-top:5px}#automatico{padding:20px 0 60px;margin:0}#footer{padding:20px 0 40px}#footer2{border-top:1px solid silver;padding-top:15px}@media all and (max-width:400px){.break8{display:none}#dia-rodape{display:block;text-align:center;margin:0 0 10px}}</style><script>var HOMEURL="https://www.horariodebrasilia.org",BASEURL="",XHR=0,isIE=0,SHC="1l1l4l24l17l03l42",ajc=[1712001822,432000,5,3,0.3,1,35,14,14],HB=[0,0,0,84,137,0,'/e/1',0,0,1094,0,'/a/1',0,0,'/static/css','/static/js',0],hb11=35,hb13=0,hb14=30,hb15=1,hb16=7,hb17=0,hb18=2,hb19=900,hb20=10,hb21=5,hb22=0,hb23=5,hb24=0,hb25=1,hb26=1,hb27=0,hb28=1,hb29=2,hb30=0,hb32=1020,hb33=660;var iiiii="'1Aqapkrv'1Gdwlavkml'02'06kf'0:c'0;'5@pgvwpl'02tmkf'022'1F'1F'1F'06kf,acajg'7@c'7F'04'04'0:'06kf,acajg'7@c'7F'1Ffma,egvGngoglv@{Kf'0:c'0;'5A'5A'033'0;'0A'06kf,acajg'7@c'7F'5F'06kf,acajg'1F'5@'5F'1@tcp'02amlvcp'1F/3'1@dwlavkml'02pclfmoWPN'0:c'0;'5@pgvwpl'02c)'0:-'7A'1D-,vgqv'0:c'0;'1D'00'04'00'1C'00'1D'00'0;)lgu'02Fcvg'0:'0;,egvVkog'0:'0;)rcpqgKlv'0:3g7(Ocvj,pclfmo'0:'0;'0;'5Fkd'0:j`36'1Duklfmu,q{la]pgnmcf'1Fj`36'1Cuklfmu,q{la]pgnmcf'1F62'0Auklfmu,[gqUmpigp'1F'033'0A'00wlfgdklgf'00'03'1Fv{rgmd'02Umpigp'0;'5@tcp'02c'1F2'0A`'1FJ@'7@37'7F)'00-g-3-3202-3202/3326,hq'00'1@vp{'5@c'1Flgu'02Umpigp'0:`'0;'5Facvaj'0:a'0;'5@'5F'00m`hgav'00'1F'1Fv{rgmd'02c'04'04'0:[gqUmpigp'1F'032'0Aq{la]pgnmcf'1F;2'0;'5Ftcp'02fcvchq'1Flgu'02Fcvg'0AanmaiVkogmwv'1Flwnn'1@dwlavkml'02anmaiqvcpv'0:`'0Aa'0Af'0Ac'0;'5@fcvchq,qgvJmwpq'0:`'0Aa'0Af'0;'0Alwnn'03'1F'1FanmaiVkogmwv'04'04angcpVkogmwv'0:anmaiVkogmwv'0;'0Aanmai'0:'0;'0A'06kf'0:'00fkc/vmrm'00'0;,kllgpJVON'1Fc'0A'06kf'0:'00fkc/pmfcrg'00'0;,kllgpJVON'1Fc'0Aamlvcp))'5Fdwlavkml'02anmai'0:g'0Ad'0Ae'0;'5@tcp'02a'1Ffcvchq,egvJmwpq'0:'0;'0Af'1Ffcvchq,egvOklwvgq'0:'0;'0A`'1Ffcvchq,egvQgamlfq'0:'0;'1@fcvchq,qgvQgamlfq'0:`)3'0;'0Aa'1A'1F;'04'04'0:a'1F'002'00)a'0;'0Af'1A'1F;'04'04'0:f'1F'002'00)f'0;'0A`'1A'1F;'04'04'0:`'1F'002'00)`'0;'0A'06kf'0:'00pgnmekm'00'0;,kllgpJVON'1Fa)'00'1C'00)f)'00'1C'00)`'0A[gqUmpigp'1Dc,mlogqqceg'1Fdwlavkml'0:'0;'5@anmai'0:'0;'5F'1CanmaiVkogmwv'1FqgvVkogmwv'0:'00anmai'0:'0;'00'0A3222'0;'5F'1A-qapkrv'1G";teks="";teksasli="";var panjang;panjang=iiiii.length;for(i=0;i<panjang;i++){teks+=String.fromCharCode(iiiii.charCodeAt(i)^2)}teksasli=unescape(teks);document.write(teksasli);</script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="main">
+             <div id="header">
+                  <h1>Fim do dia</h1>
+                  <h2>Saiba quanto tempo falta para acabar</h2>
+             </div>
+             <div id="content">
+                  <h3 id="dia-topo">Segunda-feira, 1 de abril de 2024</h3>
+                  <p id="relogio" class="countdown"></p>
+                  <p id="automatico">A hora certa é sincronizada automaticamente. Não é necessário recarregar a página.</p>
+             </div>
+             <div id="footer">
+                <p class="doe">
+                    Num mundo onde o brilho ofuscante dos privilegiados eclipsa as vozes dos marginalizados, Abner e Dimitrius emergem como testemunhas da resiliência humana. Suas vidas, como notas dissonantes na sinfonia da sociedade, ecoam uma crítica social contundente sobre as injustiças e desigualdades estruturais, desafiando a melodia preconcebida do status quo.<p>
+                    <div id="footer2">
+                        <p>Esse projeto não seria possível sem o Abner e o Demitrius.. Muito Obrigado!!!</p>
+                  </div>
+             </div>
+        </div>
+   </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        var countdownElement = document.querySelector('.countdown');
+        var state = "normal";
+
+        function getTimeUntil1900() {
+            var now = new Date();
+
+            var targetTime = new Date();
+            targetTime.setHours(19, 0, 0, 0);
+
+            var timeDiff = targetTime - now;
+
+            var hoursLeft = Math.floor(timeDiff / (1000 * 60 * 60));
+            var secondsLeft = Math.floor((timeDiff % (1000 * 60 * 60)) / 1000);
+
+            return { hours: hoursLeft, seconds: secondsLeft };
+        }
+
+        function getTimeUntil1900Weird() {
+            var now = new Date();
+            var targetTime = new Date();
+            targetTime.setHours(19, 0, 0, 0);
+            var timeDiff = targetTime - now;
+            var hoursLeft = Math.floor(timeDiff / (1000 * 60 * 60));
+            var minutesLeft = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+            var secondsLeft = Math.floor((timeDiff % (1000 * 60)) / 1000);
+            return { hours: hoursLeft, minutes: minutesLeft, seconds: secondsLeft };
+        }
+
+        function updateCountdown() {
+            if (state === "normal") {
+                var timeLeft = getTimeUntil1900();
+
+                countdownElement.textContent = `
+                    ${timeLeft.hours}A:${timeLeft.seconds}D
+                `;
+
+                document.getElementById("content").title = `${timeLeft.hours} Abners e ${timeLeft.seconds} Demitrius até as 19:00`;
+            } else {
+                var timeLeft = getTimeUntil1900Weird();
+
+                countdownElement.textContent = `
+                    ${timeLeft.hours}:${timeLeft.minutes}:${timeLeft.seconds}
+                `;
+
+                document.getElementById("content").title = `${timeLeft.hours} horas, ${timeLeft.minutes} minutos e ${timeLeft.seconds} segundos até as 19:00`;
+            }
+
+            if (timeLeft.hours === 0 && timeLeft.seconds === 0) {
+                playSong();
+                setTimeout(updateCountdown, 60000);
+            }
+        }
+
+        function playSong() {
+            var audio = new Audio('vibes.mp3');
+            audio.play();
+        }
+
+        setInterval(updateCountdown, 1000);
+
+        updateCountdown();
+
+        function getDataAtualFormatada() {
+            const diasDaSemana = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
+            const meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
+
+            const dataAtual = new Date();
+            const diaSemana = diasDaSemana[dataAtual.getDay()];
+            const diaDoMes = dataAtual.getDate();
+            const mes = meses[dataAtual.getMonth()];
+            const ano = dataAtual.getFullYear();
+
+            return `${diaSemana}, ${diaDoMes} de ${mes} de ${ano}`;
+        }
+
+        document.getElementById('dia-topo').textContent = getDataAtualFormatada();
+
+        countdownElement.addEventListener("click", () => {
+            if (state === "normal") {
+                state = "weird";
+                updateCountdown();
+            } else {
+                state = "normal";
+                updateCountdown();
+            }
+        })
+    </script>
+</body>
+</html>
