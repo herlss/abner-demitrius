@@ -252,20 +252,23 @@
                         return window.alert("Você ganhou o jogo!");
                     }
 
-                    if (game_var[0] === item.textContent.toLowerCase() && game_var.length === 1) {
+                    if (game_var[0] === item.textContent.toLowerCase()) {
+                        console.log("hello")
                         game_var.shift();
                         item.style.color = "green";
                         item.style.fontWeight = "bold";
                         item.style.fontSize = "2em";
 
-                        window.alert("Você ganhou o jogo!");
+                        if (game_var.length === 0) {
+                            return window.alert("Você ganhou o jogo!");
+                        }
                     }
                 })
             })
         })
 
         countdownElement.addEventListener("click", () => {
-            if (countdownElement.textContent.includes("69")) {
+            if (countdownElement.textContent.includes("1")) {
                 button.style.display = "inline-block";
             }
 
